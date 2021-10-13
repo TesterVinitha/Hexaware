@@ -1,0 +1,173 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 13,
+        "name": "Verifying Booking confirmation function",
+        "description": "",
+        "id": "verifying-adactin-hotel-functions;verifying-booking-confirmation-function;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 10890739600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on Login Page",
+            "match": {
+              "location": "stepDefiniation.user_is_on_Login_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2421159500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User should enters \"userUnknown\" and \"Password@12\"and Click Login button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"userUnknown\"",
+                  "offset": 19
+                },
+                {
+                  "val": "\"Password@12\"",
+                  "offset": 37
+                }
+              ],
+              "location": "stepDefiniation.user_should_enters_and_and_Click_Login_button(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1397179700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User should enters the \"London\" and \"Hotel Sunshine\" and \"Double\" and \"1 - One\" and \"13/10/2021\" and \"14/10/2021\" then \"2 - Two\" and \"2 - Two\" and enters Search button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"London\"",
+                  "offset": 23
+                },
+                {
+                  "val": "\"Hotel Sunshine\"",
+                  "offset": 36
+                },
+                {
+                  "val": "\"Double\"",
+                  "offset": 57
+                },
+                {
+                  "val": "\"1 - One\"",
+                  "offset": 70
+                },
+                {
+                  "val": "\"13/10/2021\"",
+                  "offset": 84
+                },
+                {
+                  "val": "\"14/10/2021\"",
+                  "offset": 101
+                },
+                {
+                  "val": "\"2 - Two\"",
+                  "offset": 119
+                },
+                {
+                  "val": "\"2 - Two\"",
+                  "offset": 133
+                }
+              ],
+              "location": "stepDefiniation.user_should_enters_the_and_and_and_and_and_then_and_and_enters_Search_button(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 761049300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user should select the Hotel",
+            "match": {
+              "location": "stepDefiniation.user_should_select_the_Hotel()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6384730200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should provides the personal informations \"Jagan\" and \"Vasudevan\" and \"Times Square\" and \"1234567812345678\" and \"VISA\" then \"March\" and \"2022\" and \"098\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Jagan\"",
+                  "offset": 47
+                },
+                {
+                  "val": "\"Vasudevan\"",
+                  "offset": 59
+                },
+                {
+                  "val": "\"Times Square\"",
+                  "offset": 75
+                },
+                {
+                  "val": "\"1234567812345678\"",
+                  "offset": 94
+                },
+                {
+                  "val": "\"VISA\"",
+                  "offset": 117
+                },
+                {
+                  "val": "\"March\"",
+                  "offset": 129
+                },
+                {
+                  "val": "\"2022\"",
+                  "offset": 141
+                },
+                {
+                  "val": "\"098\"",
+                  "offset": 152
+                }
+              ],
+              "location": "stepDefiniation.user_should_provides_the_personal_informations_and_and_and_and_then_and_and(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1706792600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User should validate the order id",
+            "match": {
+              "location": "stepDefiniation.user_should_validate_the_order_id()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Verifying Adactin hotel functions",
+    "description": "",
+    "id": "verifying-adactin-hotel-functions",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Feature/Adac.feature",
+    "tags": []
+  }
+]
