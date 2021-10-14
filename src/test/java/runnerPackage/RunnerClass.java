@@ -1,5 +1,6 @@
 package runnerPackage;
 
+import org.junit.AfterClass;
 import org.junit.runner.RunWith;
 
 import cucumber.api.CucumberOptions;
@@ -9,15 +10,13 @@ import report.JvmReport;
 @RunWith(Cucumber.class)
 @CucumberOptions(features = "src/test/resources", glue = {
 		"ExecuteTestCase" }, monochrome = true, dryRun = false, plugin = {
-				"json:eclipse-workspace\\AutomationTesting\\reports\\out.json" })
+				"json:C:\\Users\\Hi\\eclipse-workspace\\AutomationTesting\\Output\\out.json" })
 public class RunnerClass {
 
-	public void result() {
+	@AfterClass
+	public static void result() {
 
-		String path = System.getProperty("user.dir");
-
-		JvmReport.generator(path + "eclipse-workspace\\AutomationTesting\\reports\\res.json");
+		JvmReport.generator("C:\\Users\\Hi\\eclipse-workspace\\AutomationTesting\\Output\\out.json");
 
 	}
-
 }

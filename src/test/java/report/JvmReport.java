@@ -11,7 +11,7 @@ public class JvmReport {
 
 	public static void generator(String jsonFile) {
 
-		File file = new File(System.getProperty("user.dir") + "eclipse-workspace\\AutomationTesting\\reports\\");
+		File file = new File("C:\\Users\\Hi\\eclipse-workspace\\AutomationTesting\\JsonReport");
 
 		Configuration configuration = new Configuration(file, "Adactin Hotel Functional Check");
 
